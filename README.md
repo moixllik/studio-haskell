@@ -2,7 +2,8 @@
 
 ## Projetos
 
-* [Perceptron Funcional](./perceptron/)
+* [Documentação com Pandoc](./pandoc/)
+* [Perceptron funcional](./perceptron/)
 
 ## Documentação
 

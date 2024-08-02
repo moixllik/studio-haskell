@@ -1,2 +1,8 @@
 all:
-    @echo "make [option]"
+	@echo "make [option]"
+
+run:
+
+
+doc:
+	pandoc -o doc.pdf README.md
