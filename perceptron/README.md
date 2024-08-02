@@ -1,12 +1,3 @@
----
-title: Perceptron funcional
-author: Irving Montalvo
-date: Aug 2, 2024
-papersize: a4
-fontsize: 12pt
-geometry: margin=2.5cm
----
-
 # Perceptron funcional
 
 ## Descrição
