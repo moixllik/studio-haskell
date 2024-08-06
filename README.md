@@ -1,11 +1,11 @@
 # Haskell
 
-## Projetos
+## Projects
 
-* [Documentação com Pandoc](./pandoc/)
-* [Perceptron funcional](./perceptron/)
+* [(PT) Documentação com Pandoc](./pandoc/)
+* [(PT) Perceptron funcional](./perceptron/)
 
-## Documentação
+## References
 
 * [Web oficial: Haskell Language](https://www.haskell.org/)
 * [Documentação oficial: Haskell Language](https://www.haskell.org/documentation/)

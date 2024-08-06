@@ -84,3 +84,4 @@ O perceptron é um modelo simples e pode resolver apenas problemas linearmente s
 * [Deep Learning Book. Capítulo 6 – O Perceptron](https://www.deeplearningbook.com.br/o-perceptron-parte-1/)
 * [(EN) What is Perceptron. The Simplest Artificial neural network](https://www.geeksforgeeks.org/what-is-perceptron-the-simplest-artificial-neural-network/)
 * [(ES) YouTube: Funciones de activación a detalle (Redes neuronales)](https://www.youtube.com/watch?v=_0wdproot34)
+* [(EN) Wikipedia: e (mathematical constant)](https://en.wikipedia.org/wiki/E_(mathematical_constant))
