@@ -30,4 +30,6 @@ test-suite perceptron-test
     main-is:          Main.hs
     build-depends:
         base,
+        tasty,
+        tasty-hunit,
         perceptron

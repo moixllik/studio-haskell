@@ -10,7 +10,7 @@ build:
 	cabal build
 
 test:
-	cabal test
+	cabal test --test-option="--color=always"
 
 doc:
 	pandoc --metadata-file ./meta.yml -o doc.pdf README.md

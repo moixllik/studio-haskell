@@ -1,25 +1,32 @@
 module MyLib where
 
--- Perceptron
-perceptron função_de_activação pesos entrada viés = função_de_activação (pesos * entrada + viés)
+-- Alpha Constant
+alpha :: Double
+alpha = 0.01
 
 -- Sigmoide
+sigmoide :: Double -> Double
 sigmoide z = 1 / (1 + exp (-z))
 
 -- TanH
-tanh z = (exp z - exp (-z)) / (exp z + exp (-z))
+-- tanh :: Double -> Double
+-- tanh z = (exp z - exp (-z)) / (exp z + exp (-z))
 
 -- ReLU
-reLU = max 0
+relu :: Double -> Double
+relu = max 0
 
 -- Leaky ReLU
-leakyReLU z alpha = if z >= 0 then z else alpha * z
+leakyRelu :: Double -> Double
+leakyRelu z = if z > 0 then z else alpha * z
 
 -- ELU
-eLU z alpha = if z >= 0 then z else alpha exp (z - 1)
+elu :: Double -> Double
+elu z = if z > 0 then z else alpha * exp (z - 1)
 
 -- Softmax (?)
-softmax z = exp z / exp z
+-- softmax z = exp z / exp z
 
 -- Soma ponderada (?)
-somaPonderada z = z
+-- somaPonderada z = z
+
