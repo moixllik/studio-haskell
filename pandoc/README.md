@@ -4,7 +4,6 @@
 cabal install pandoc-cli
 ```
 
-## Documentação
+## Referências
 
-* []()
 * [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)

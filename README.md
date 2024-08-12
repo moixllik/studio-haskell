@@ -3,7 +3,8 @@
 ## Projects
 
 * [(PT) Documentação com Pandoc](./pandoc/)
-* [(PT) Perceptron funcional](./perceptron/)
+* [(PT) O Perceptron](./perceptron/)
+* [(ES) Contabilidad IFRS](./contabilidad/)
 
 ## References
 
