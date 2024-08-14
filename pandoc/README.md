@@ -1,9 +1,9 @@
-# Documentação com Pandoc
+# Documentación con Pandoc
 
-```
-cabal install pandoc-cli
-```
+> Pandoc es una herramienta que permite convertir entre formatos de documentos.
 
-## Referências
+## Referencias
 
+* [Web oficial: Pandoc](https://pandoc.org/)
+* [Documentación oficial: Pandoc](https://pandoc.org/getting-started.html)
 * [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)

@@ -2,12 +2,13 @@
 
 ## Projects
 
-* [(PT) Documentação com Pandoc](./pandoc/)
-* [(PT) O Perceptron](./perceptron/)
+* [(ES) Documentación con Pandoc](./pandoc/)
+* [(ES) Perceptron](./perceptron/)
 * [(ES) Contabilidad IFRS](./contabilidad/)
+* [(Es) Patrones de Diseño](./patterns/)
 
 ## References
 
 * [Web oficial: Haskell Language](https://www.haskell.org/)
-* [Documentação oficial: Haskell Language](https://www.haskell.org/documentation/)
-* [Wikipedia: Haskell Language](https://pt.wikipedia.org/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o))
+* [Documentation oficial: Haskell Language](https://www.haskell.org/documentation/)
+* [Wikipedia: Haskell Language](https://en.wikipedia.org/wiki/Haskell)
