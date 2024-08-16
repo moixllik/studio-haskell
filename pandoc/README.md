@@ -1,6 +1,6 @@
 # Documentación con Pandoc
 
-> Pandoc es una herramienta que permite convertir entre formatos de documentos.
+Pandoc es una herramienta que permite convertir entre formatos de documentos.
 
 ## Referencias
 

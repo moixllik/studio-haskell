@@ -6,3 +6,9 @@ fontsize: 12pt
 geometry: margin=2.5cm
 keywords: pandoc markdown documentación
 subject: Creación de documentación con markdown, fórmulas y gráficos matemáticos
+toc: true
+toc-title: "Índice"
+bibliography: ./article/references.bib
+csl: ./apa7.csl
+header-includes: |
+  \renewcommand{\figurename}{Figura}

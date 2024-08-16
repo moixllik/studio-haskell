@@ -2,10 +2,10 @@
 
 ## Projects
 
-* [(ES) Documentación con Pandoc](./pandoc/)
-* [(ES) Perceptron](./perceptron/)
-* [(ES) Contabilidad IFRS](./contabilidad/)
-* [(Es) Patrones de Diseño](./patterns/)
+* [(ES) Documentación con Pandoc](./pandoc/doc.pdf)
+* [(ES) Perceptron](./perceptron/doc.pdf)
+* [(ES) Pincipia Nobit en la Contabilidad](./nobit/doc.pdf)
+* [(Es) Patrones de Diseño](./patterns/doc.pdf)
 
 ## References
 
