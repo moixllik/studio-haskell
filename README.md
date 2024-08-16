@@ -2,10 +2,13 @@
 
 ## Projects
 
-* [(ES) Documentación con Pandoc](./pandoc/doc.pdf)
+* [(ES) Uso de Pandoc para la creación de documentación](./pandoc/doc.pdf)
+
+<!--
 * [(ES) Perceptron](./perceptron/doc.pdf)
 * [(ES) Pincipia Nobit en la Contabilidad](./nobit/doc.pdf)
 * [(Es) Patrones de Diseño](./patterns/doc.pdf)
+-->
 
 ## References
 
