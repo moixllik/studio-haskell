@@ -2,7 +2,7 @@
 
 ## Introducción
 
-La creación de documentación en varios ámbitos es de gran importancia, por ello mantener un formato sin añadir complicación a la edición es que se recurre a lenguajes de marcado como Markdown. Pero el estándar de Internet es PDF (del inglés: Portable Document Format) así que se recurre a programas como Pandoc que transforman los archivos de Markdown (.md) a otros formatos [@pd2024].
+La creación de documentación en varios ámbitos es de gran importancia, por ello mantener un formato sin añadir complicación a la edición es que se recurre a lenguajes de marcado como Markdown. Pero el estándar de Internet es PDF (del inglés: Portable Document Format) así que se utiliza programas como Pandoc que transforman los archivos de Markdown (.md) a otros formatos [@pd2024].
 
 En el presente documento se da una explicación en base a ejemplos del uso de Markdown para obtener documentos con formato y estilo.
 
@@ -29,7 +29,7 @@ sudo apt-get install -y texlive-fonts-recommended texlive-fonts-extra
 
 ## Lenguaje Markdown
 
-El lenguaje de marcado Markdown creado en 2004, pero con estandarización desde 2012, sirve para dar formato a documentación en plataformas como GitHub. Sin embargo, existen varias extensiones agregado nuevos formatos a elementos que se van utilizando en diferentes contextos, por ejemplo: títulos, notas, bibliografía, etc. Ver @doc2024
+El lenguaje de marcado Markdown creado en 2004, pero con estandarización desde 2012, sirve para dar formato a documentación en plataformas como GitHub. Sin embargo, existen varias extensiones agregado nuevos elementos que se van utilizando en diferentes contextos, por ejemplo: títulos, notas, bibliografía, etc. Ver @doc2024
 
 ## Elementos comunes en documentación
 
@@ -59,7 +59,6 @@ Normal | Derecha | Centro | Izquierda
 2 1    | 2 2     | 3 3    | 2 4
 3 1    | 3 2     | 3 3    | 3 4
 
-\newpage
 ```md
 <!-- Tabla -->
 Normal | Derecha | Centro | Izquierda
@@ -80,7 +79,7 @@ Normal | Derecha | Centro | Izquierda
 <!---->
 ```
 
-### Diagramas PlantUML
+### Diagramas en PlantUML
 
 ```plantuml
 @startuml
@@ -160,7 +159,7 @@ pandoc --citeproc --filter pandoc-plantuml \
 
 ## Extendiendo con LaTeX
 
-LaTeX es todo un sistema que permite un mayor detalle en la generación de documentos PDF, pero como se menciona al principio la documentación requiere mantener simplicidad, aquí algunos ejemplos:
+LaTeX es todo un sistema que permite un mayor detalle en la generación de documentos PDF, pero como se menciona al principio la documentación se requiere mantener simplicidad, aquí algunos ejemplos:
 
 ### Fórmula matemática
 
@@ -176,17 +175,18 @@ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 % --
 ```
 
-### Otros estilos de la página
+### Otros modificadores de la página
 
 ```tex
-% Otros estilos de página
+% Otros modificadores de página
 \newpage
+\pagestyle{empty}
 % --
 ```
 
 ## Extendiendo con filtros
 
-Los filtros permiten agregran nuevas funcionalidades a procesamiento del contenido antes de generar el archivo PDF. Entre los filtros principales tenemos:
+Los filtros permiten agregran nuevas funcionalidades a procesamiento del contenido antes de generar el archivo PDF (ver Anexo 2). Entre los filtros principales tenemos:
 
 ```bash
 # Instalar otros filtros en Debian
@@ -197,13 +197,11 @@ sudo apt install -y pandoc-citeproc-preamble \
 
 ## Aspectos adicionales
 
-La documentación de uso académico se rige bajo estándares como @apa2022, Chicago, etc. Estándares que requieren formatos muy específicos y bien documentados.
+La documentación de uso académico se rige bajo estándares como APA ^[Aquí se utiliza APA7, ver @apa2022], Chicago, etc. Estándares que requieren formatos muy específicos y bien documentados.
 
 ## Conclusión
 
-Buscando la simplicidad en la documentación se usa Markdown y para la presentación formal se hace en un documento PDF, es ahí donde un transformador entre formatos como Pandoc tiene relevancia y en caso de buscar mayor detalle se recurre a sistemas como LaTeX o lenguajes como Haskell y Lua.
-
-\newpage
+Buscando la simplicidad en la documentación se usa Markdown y para la presentación formal se hace en un documento PDF, es ahí donde un transformador entre formatos como Pandoc tiene relevancia y en caso de buscar mayor detalle se recurre a sistemas como LaTeX o lenguajes que permiten generar extensiones.
 
 ## Referencias
 
