@@ -1,6 +1,0 @@
-# Contabilidad IFRS
-
-## Descripción
-
-## Referencias
-
