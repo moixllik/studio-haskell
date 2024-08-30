@@ -13,4 +13,4 @@ doc:
 		--lua-filter ./article/filters/replace.lua \
 		--metadata-file ./article/meta.yml \
 		-o doc.pdf \
-		./article/README.md ./article/anexos.md
+		./article/article.md ./article/anexos.md
