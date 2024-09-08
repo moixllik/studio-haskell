@@ -2,7 +2,7 @@ run:
 	cabal run
 
 test:
-	cabal test
+	cabal test --test-options="--color=always"
 
 doc:
 	pandoc --metadata-file ./meta.yml \
